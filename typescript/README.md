@@ -24,6 +24,30 @@ DAYTONA_API_KEY=dtn_***
 DAYTONA_API_URL=https://app.daytona.io/api
 ```
 
+## Running locally
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server**:
+   ```bash
+   npm start
+   ```
+
+3. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+The proxy server will start on port 1234 (or the port specified in the `PORT` environment variable).
+
+### Testing the Proxy
+
+Once running, you can test the proxy by accessing your sandboxes through URLs in the format:
+http://{PORT}-{sandboxId}.localhost:1234
+
+
 ## Docker build 
 
 ### Building the Docker Image
