@@ -1,0 +1,42 @@
+# Git directory
+.git
+.gitignore
+
+# Built binaries
+daytona-proxy
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environment files (secrets should be injected at runtime)
+.env
+
+# Documentation
+README.md
+*.md
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test files
+*_test.go
+coverage.out
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
